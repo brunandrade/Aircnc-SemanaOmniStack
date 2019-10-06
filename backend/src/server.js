@@ -11,8 +11,6 @@ const app = express();
 const server = http.Server(app);
 const io = sockteio(server);
 
-
-
 mongoose.connect('mongodb+srv://hansolo:hansolo@aircnc-ktep2.mongodb.net/aircnc?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
